@@ -139,7 +139,8 @@ div.features {
   div.features {
     flex-direction: row;
   }
-  .features-strengths, .features-weakness {
+  .features-strengths,
+  .features-weakness {
     width: 50%;
   }
 }
