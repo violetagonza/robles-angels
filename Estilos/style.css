@@ -209,16 +209,45 @@ body {
   color: #14d9c4;
 }
 
+/* PUNTO TRAS TWITTER */
+
 .fa-twitter:after {
-  :&#46 ;
+  content: '\002E';
+  position: relative;
+  top: -4px;
+  left: 8px;
+  color: black;
 }
 
 .fa-linkedin-in {
   color: #14d9c4;
 }
 
+/* PUNTO TRAS LINKEDIN */
+
+.fa-linkedin-in:after {
+
+  content: '\002E';
+  position: relative;
+  top: -4px;
+  left: 8px;
+  color: black;
+}
+
 .fa-github-alt {
   color: #14d9c4;
+}
+
+/* PUNTO TRAS GITHUB */
+
+
+.fa-github-alt:after {
+
+  content: '\002E';
+  position: relative;
+  top: -4px;
+  left: 8px;
+  color: black;
 }
 
 .fa-envelope {
