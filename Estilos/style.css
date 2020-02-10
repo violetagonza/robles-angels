@@ -127,13 +127,21 @@ div.features {
   background-color: #f1f1f1;
   width: 100%;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   padding-top: 30px;
   padding-left: 15px;
   padding-right: 15px;
   box-sizing: border-box;
+}
+
+@media all and (min-width: 768px) {
+  div.features {
+    flex-direction: row;
+  }
+  .features-strengths, .features-weakness {
+    width: 50%;
+  }
 }
 
 h2.title {
