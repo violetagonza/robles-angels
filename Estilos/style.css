@@ -1,23 +1,19 @@
 /* Hero */
 
 .hero-image {
-  /* background-image: url("../images/grupo-chicas.jpg"); */
-  /* background-repeat: no-repeat;
-  background-size: cover; */
   width: 100%;
 }
 
 .lema {
-  background-color: rgb(255, 255, 255);
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   padding: 14px 15px 16px 15px;
-  /* margin-top: 340px; */
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-bottom: 0px;
-  height: 50px;
-  font-family: "Open Sans", sans-serif;
   display: flex;
-  align-items: center;
+  position: relative;
+  top: -40px;
+  background-color: #ffffff;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* Header */
@@ -26,6 +22,7 @@
   width: 100%;
   position: fixed;
   z-index: 100;
+  box-sizing: border-box;
 }
 
 .header-base {
@@ -72,7 +69,6 @@
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 0px;
-  margin-top: 15px;
   position: relative;
 }
 .container h2 {
@@ -227,7 +223,7 @@ body {
 /* PUNTO TRAS TWITTER */
 
 .fa-twitter:after {
-  content: '\002E';
+  content: "\002E";
   position: relative;
   top: -4px;
   left: 8px;
@@ -241,8 +237,7 @@ body {
 /* PUNTO TRAS LINKEDIN */
 
 .fa-linkedin-in:after {
-
-  content: '\002E';
+  content: "\002E";
   position: relative;
   top: -4px;
   left: 8px;
@@ -255,10 +250,8 @@ body {
 
 /* PUNTO TRAS GITHUB */
 
-
 .fa-github-alt:after {
-
-  content: '\002E';
+  content: "\002E";
   position: relative;
   top: -4px;
   left: 8px;
