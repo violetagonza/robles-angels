@@ -1,3 +1,8 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 /* Hero */
 
 .hero-image {
@@ -109,6 +114,7 @@
   color: #099d8d;
   font-family: "Rubic", sans-serif;
   font-size: 22px;
+  margin-top: 10px;
 }
 
 .content {
@@ -120,26 +126,16 @@ body {
   margin: 0;
 }
 
-div.features {
+.features {
   background-color: #f1f1f1;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-left: 15px;
   padding-right: 15px;
-  box-sizing: border-box;
-}
-
-@media all and (min-width: 768px) {
-  div.features {
-    flex-direction: row;
-  }
-  .features-strengths,
-  .features-weakness {
-    width: 50%;
-  }
+  padding-bottom: 20px;
 }
 
 h2.title {
@@ -148,28 +144,33 @@ h2.title {
   font-size: 22px;
 }
 
-p.content {
-  color: #54585a;
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-}
-
-div.features-strengths {
+.features-strengths {
   width: 100%;
   text-align: center;
 }
 
-div.features-weakness {
+.features-weakness {
   width: 100%;
   text-align: center;
 }
 
+@media all and (min-width: 768px) {
+  .features {
+    flex-direction: row;
+  }
+  .features-strengths,
+  .features-weakness {
+    width: 50%;
+  }
+}
 /* team */
+.adalabers {
+  padding-top: 10px;
+}
 
 .adalaber {
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
   align-items: center;
 }
 
@@ -186,8 +187,7 @@ div.features-weakness {
 }
 
 .name {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 20px;
   line-height: 2.25;
   color: #000000;
@@ -195,13 +195,13 @@ div.features-weakness {
 }
 
 .text {
-  width: 439px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #54585a;
   text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .photo {
@@ -273,6 +273,7 @@ body {
   width: 124px;
   height: 30px;
   margin: 0 auto;
+  margin-top: 15px;
   display: flex;
   justify-content: space-between;
 }
