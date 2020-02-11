@@ -45,11 +45,13 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .nombre-del-grupo {
   font-family: Rubik;
   font-size: 16px;
   color: white;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .main-bar {
