@@ -2,6 +2,10 @@ body {
   margin-top: 105px;
 }
 
+.padding-link {
+  padding-top: 105px;
+}
+
 /* Hero */
 
 .hero-image {
@@ -19,9 +23,8 @@ body {
   display: flex;
   position: relative;
   top: 90%;
-  background-color: #6b1919;
+  background-color: #ffffff;
   font-family: "Open Sans", sans-serif;
-  align-items: center;
 }
 
 /* Header */
