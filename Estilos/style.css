@@ -370,14 +370,12 @@ a {
   }
 
   .text-even {
-    width: 70vw;
     text-align: left;
     margin-right: 44px;
     padding: 0;
   }
 
   .text-odd {
-    width: 70vw;
     text-align: right;
     margin-left: 44px;
     padding: 0;
