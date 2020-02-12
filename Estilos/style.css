@@ -355,11 +355,18 @@ a {
     align-items: left;
   }
 
-  .photobox {
+  .photobox-even {
     min-width: 205px;
     min-height: 205px;
     margin-left: 44px;
     margin-right: 31px;
+  }
+
+  .photobox-odd {
+    min-width: 205px;
+    min-height: 205px;
+    margin-left: 31px;
+    margin-right: 44px;
   }
 
   .text-even {
@@ -372,7 +379,7 @@ a {
   .text-odd {
     width: 70vw;
     text-align: right;
-    margin-right: 44px;
+    margin-left: 44px;
     padding: 0;
   }
 
