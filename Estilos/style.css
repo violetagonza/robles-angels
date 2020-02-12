@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
   margin-top: 105px;
 }
@@ -7,13 +6,11 @@ body {
   padding-top: 105px;
 }
 
-=======
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
->>>>>>> 750d7c91020f54a6708f043855b8fdbf95046954
 /* Hero */
 
 .hero-image {
