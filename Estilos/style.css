@@ -330,6 +330,70 @@ body {
 .links-footer a {
   color: #54585a;
 }
+
 a {
   text-decoration: none;
+}
+
+/* @media Tablet */
+
+@media (min-width: 768px) {
+  .adalaber-even {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .adalaber-odd {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .information {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .photobox {
+    min-width: 205px;
+    min-height: 205px;
+    margin-left: 44px;
+    margin-right: 31px;
+  }
+
+  .text-even {
+    width: 70vw;
+    text-align: left;
+    margin-right: 44px;
+    padding: 0;
+  }
+
+  .text-odd {
+    width: 70vw;
+    text-align: right;
+    margin-right: 44px;
+    padding: 0;
+  }
+
+  .name-even {
+    text-align: left;
+  }
+
+  .name-odd {
+    text-align: right;
+  }
+
+  .photo {
+    width: 205px;
+    height: 205px;
+  }
+
+  .icons-even {
+    margin-left: 0;
+  }
+
+  .icons-odd {
+    margin-right: 0;
+  }
 }
