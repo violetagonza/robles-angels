@@ -162,11 +162,15 @@ h2.title {
 .features-strengths {
   width: 100%;
   text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .features-weakness {
   width: 100%;
   text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 @media all and (min-width: 768px) {
