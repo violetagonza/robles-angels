@@ -182,6 +182,16 @@ h2.title {
     width: 50%;
   }
 }
+
+/* desktop fortalezas y debilidades */
+
+@media all and (min-width: 1024px) {
+  .features-strengths,
+  .features-weakness {
+    padding-left: 138px;
+    padding-right: 138px;
+  }
+}
 /* team */
 .adalabers {
   padding-top: 10px;
