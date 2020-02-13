@@ -344,13 +344,12 @@ a {
 @media (min-width: 768px) {
   .lema {
     width: 60%;
-    margin-left: 0;
+    margin-left: 46px;
     margin-right: 0;
-    padding: 0px 15px 16px 15px;
-    display: flex;
-    position: relative;
-    top: 50%;
-    background-color: #ffffff;
+    padding: 15px 30px;
+    bottom: 0%;
+    background-color: red;
+    opacity: 80%;
     font-family: "Open Sans", sans-serif;
   }
 
