@@ -347,10 +347,14 @@ a {
     margin-left: 46px;
     margin-right: 0;
     padding: 15px 30px;
-    bottom: 0%;
-    background-color: red;
+    top: 85%;
+    background-color: #ffffff;
     opacity: 80%;
     font-family: "Open Sans", sans-serif;
+  }
+
+  .hero-image {
+    height: 421px;
   }
 
   .adalaber-even {
