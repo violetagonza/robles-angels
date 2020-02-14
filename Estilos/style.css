@@ -405,4 +405,28 @@ a {
   .icons-odd {
     margin-right: 0;
   }
+
+  /* footer-768*/
+  .container-footer {
+    padding-top: 30px;
+    display: inline-block;
+  }
+  .copyright {
+    margin-left: 45px;
+    margin-bottom: 15px;
+  }
+  .links-footer {
+    line-height: 30px;
+
+    text-align: right;
+    padding: 0px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+  }
+
+  .adalab-logo {
+    margin-top: 15px;
+    margin-left: 45px;
+    margin-bottom: 60px;
+  }
 }
