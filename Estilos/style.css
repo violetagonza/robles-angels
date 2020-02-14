@@ -324,6 +324,7 @@ body {
   margin-bottom: 30px;
   margin-top: 0px;
   text-transform: uppercase;
+  border: 3px solid red;
 }
 
 .adalab-logo {
@@ -409,24 +410,28 @@ a {
   /* footer-768*/
   .container-footer {
     padding-top: 30px;
-    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
   }
   .copyright {
-    margin-left: 45px;
-    margin-bottom: 15px;
+    background: red;
+    width: 50%;
+    padding-left: 45px;
+    margin: 0;
   }
   .links-footer {
+    background: yellow;
+    width: 50%;
     line-height: 30px;
 
     text-align: right;
     padding: 0px;
-    margin-bottom: 30px;
-    margin-top: 0px;
+    margin: 0;
   }
 
   .adalab-logo {
-    margin-top: 15px;
-    margin-left: 45px;
-    margin-bottom: 60px;
+    background: green;
+    margin: 0;
   }
 }
