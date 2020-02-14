@@ -24,7 +24,7 @@ body {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  padding: 15px;
+  padding: 0px 15px 16px 15px;
   display: flex;
   position: relative;
   top: 90%;
@@ -341,7 +341,22 @@ a {
 
 /* @media Tablet */
 
-@media (min-width: 768px) {
+@media all and (min-width: 768px) {
+  .lema {
+    width: 60%;
+    margin-left: 46px;
+    margin-right: 0;
+    padding: 15px 30px;
+    top: 85%;
+    background-color: #ffffff;
+    opacity: 80%;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .hero-image {
+    height: 421px;
+  }
+
   .adalaber-even {
     display: flex;
     flex-direction: row;
