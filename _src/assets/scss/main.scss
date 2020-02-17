@@ -11,73 +11,8 @@ body {
   padding: 0px;
   box-sizing: border-box;
 }
-/* Hero */
 
-.hero-image {
-  height: 412px;
-  background: url(../images/group.photo.jpg) 50% center no-repeat;
-  background-size: cover;
-  width: 100%;
-}
-
-.lema {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 15px;
-  display: flex;
-  position: relative;
-  top: 90%;
-  background-color: #ffffff;
-  font-family: "Open Sans", sans-serif;
-}
-
-/* Header */
-
-.header {
-  width: 100%;
-  position: fixed;
-  z-index: 100;
-  box-sizing: border-box;
-}
-
-.header-base {
-  display: flex;
-  height: 60px;
-  opacity: 0.9;
-  background-color: #099d8d;
-  margin: 0;
-  justify-content: center;
-  align-items: center;
-}
-
-.nombre-del-grupo {
-  font-family: Rubik;
-  font-size: 16px;
-  color: white;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
-.main-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-  height: 45px;
-  opacity: 0.9;
-  background-color: #14d9c5;
-  margin: 0;
-  padding: 0 15px 0;
-  text-transform: uppercase;
-}
-
-.main-bar a {
-  font-family: Rubik;
-  text-decoration: none;
-  color: white;
-  padding: 8px;
-}
+@import "./core/hero-header";
 
 /* About */
 
