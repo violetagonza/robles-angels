@@ -26,16 +26,16 @@
   position: fixed;
   z-index: 100;
   box-sizing: border-box;
-}
 
-.header-base {
-  display: flex;
-  height: 60px;
-  opacity: 0.9;
-  background-color: #099d8d;
-  margin: 0;
-  justify-content: center;
-  align-items: center;
+  &-base {
+    display: flex;
+    height: 60px;
+    opacity: 0.9;
+    background-color: #099d8d;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .nombre-del-grupo {
