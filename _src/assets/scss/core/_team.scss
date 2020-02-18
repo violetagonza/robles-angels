@@ -158,21 +158,6 @@ a {
 /* @media Tablet */
 
 @media all and (min-width: 768px) {
-  .lema {
-    width: 60%;
-    margin-left: 46px;
-    margin-right: 0;
-    padding: 15px 30px;
-    top: 85%;
-    background-color: #ffffff;
-    opacity: 80%;
-    font-family: "Open Sans", sans-serif;
-  }
-
-  .hero-image {
-    height: 421px;
-  }
-
   .adalaber-even {
     display: flex;
     flex-direction: row;
@@ -244,18 +229,31 @@ a {
     margin-bottom: 60px;
   }
 }
-
-@media (min-width: 1200px) {
-  .lema {
-    width: 48%;
-    margin-left: 138px;
-    margin-right: 0;
-    padding: 15px 30px;
-    top: 88.5%;
-    opacity: 80%;
+@media all and (min-width: 1200px) {
+  .information {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
   }
 
-  .hero-image {
-    height: 550px;
+  .photobox-even {
+    margin-left: 138px;
+    margin-right: 31px;
+  }
+
+  .photobox-odd {
+    margin-left: 31px;
+    margin-right: 138px;
+  }
+
+  .text-even {
+    margin-right: 300px;
+    padding: 0;
+  }
+
+  .text-odd {
+    margin-left: 300px;
+    padding: 0;
   }
 }
