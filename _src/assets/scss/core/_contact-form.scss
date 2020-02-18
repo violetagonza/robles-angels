@@ -1,8 +1,75 @@
 .form-container {
   display: flex;
   flex-direction: column;
+  color: $paragraph-grey;
+  padding: 15px;
+  label {
+    font-family: $principal-font;
+    font-size: 14px;
+    line-height: 40px;
+
+    span {
+      color: $light-green;
+    }
+  }
+  input {
+    height: 45px;
+    border: solid 1px $background-grey;
+    padding: 15px;
+  }
+  textarea {
+    border: solid 1px $background-grey;
+    padding: 15px;
+  }
   .mail-tel {
     display: flex;
     flex-direction: column;
   }
+}
+.small-contact-form {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: $paragraph-grey;
+  span {
+    color: $light-green;
+  }
+}
+/* all */
+::-webkit-input-placeholder {
+  color: $background-grey;
+  font-size: 14px;
+}
+::-moz-placeholder {
+  color: $background-grey;
+  font-size: 14px;
+} /* firefox 19+ */
+:-ms-input-placeholder {
+  color: $background-grey;
+  font-size: 14px;
+} /* ie */
+input:-moz-placeholder {
+  color: $background-grey;
+  font-size: 14px;
+}
+
+/* individual: webkit */
+#nombre::-webkit-input-placeholder {
+  color: $background-grey;
+  font-size: 14px;
+}
+#apellidos::-webkit-input-placeholder {
+  color: $background-grey;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/* individual: mozilla */
+#nombre::-moz-placeholder {
+  color: $background-grey;
+  font-size: 14px;
+}
+#apellidos::-moz-placeholder {
+  color: $background-grey;
+  font-size: 14px;
+  text-transform: uppercase;
 }
