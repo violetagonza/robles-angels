@@ -3,7 +3,7 @@
 @mixin content() {
   font-family: "open sans", sans-serif;
   font-size: 16px;
-  color: #54585a;
+  color: $paragraph-grey;
 }
 
 .container {
@@ -20,7 +20,7 @@
     font-size: 24px;
     font-weight: bold;
     justify-content: center;
-    color: #14d9c5;
+    color: $light-green;
     margin-bottom: 15px;
     text-transform: uppercase;
   }
@@ -73,7 +73,7 @@ body {
     @include content();
   }
   &-title {
-    color: #099d8d;
+    color: $dark-green;
     font-family: "Rubik", sans-serif;
     font-size: 22px;
     margin-top: 10px;
