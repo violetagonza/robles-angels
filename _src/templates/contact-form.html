@@ -28,8 +28,8 @@
     <main>
       <form action="GET">
         <div class="team">
-          <h2>Contacto</h2>
-          <p>
+          <h2 class="team-title">Contacto</h2>
+          <p class="team-content">
             Contacta con nosotras, estaremos encantadas de contestarte lo antes
             posible. ¡Muchas gracias!
           </p>
@@ -39,28 +39,33 @@
             obligatorios.</small
           >
         </div>
-        <label>
+        <div class="form-container">
+        <label for="Name">
           Nombre completo <span>*</span>
-          <input type="text" name="Name" placeholder="Nombre..." />
         </label>
-        <label>
+          <input id="Name" type="text" name="Name" placeholder="Nombre..." />
+        <div class="mail-tel">
+        <label id="email">
           Email
+        </label>
           <input
+          id="email"
             type="email"
             name="email"
             placeholder="nombre.apellidos@mail.com"
           />
+        <label for="tel">
+          Teléfono
         </label>
-        <label
-          >Teléfono
-          <input type="number" name="Phone-number" placeholder="Ej:123456789" />
+          <input id="tel" type="number" name="Phone-number" placeholder="Ej:123456789" />
+      </div>
+        <label for="comments">
+          Mensaje
         </label>
-        <label
-          >Mensaje
-          <input type="text" name="Message" placeholder="¿Qué necesitas?" />
-        </label>
+          <textarea id="comments" name="comments" placeholder="¿Qué necesitas?" rows="8" cols="80"></textarea>
         <input type="submit" name="Enviar" />
       </form>
+    </div>
     </main>
     <!-- Footer -->
     <partial src="_footer.html"></partial>
