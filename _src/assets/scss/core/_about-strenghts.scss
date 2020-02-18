@@ -44,18 +44,7 @@
     bottom: -15px;
   }
 }
-
-/* Fortalezas y debilidades */
-.title {
-  color: #099d8d;
-  font-family: "Rubic", sans-serif;
-  font-size: 22px;
-  margin-top: 10px;
-}
-
-.content {
-  @include content();
-}
+// fortalezas  y debilidades
 body {
   margin: 0;
 }
@@ -70,26 +59,33 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 20px;
-  .features-content {
+  &-features-container {
     width: 100%;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
   }
-}
-
-h2.title {
-  color: #099d8d;
-  font-family: "Rubik", sans-serif;
-  font-size: 22px;
+  &-content {
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    @include content();
+  }
+  &-title {
+    color: #099d8d;
+    font-family: "Rubik", sans-serif;
+    font-size: 22px;
+    margin-top: 10px;
+    text-align: center;
+  }
 }
 
 @media all and (min-width: 768px) {
   .features {
     flex-direction: row;
   }
-  .features-strengths,
-  .features-weakness {
+  .features-container {
     width: 50%;
   }
 }
