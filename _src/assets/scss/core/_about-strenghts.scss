@@ -1,5 +1,11 @@
 /* About */
 
+@mixin content() {
+  font-family: "open sans", sans-serif;
+  font-size: 16px;
+  color: #54585a;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -9,53 +15,36 @@
   margin-right: 15px;
   margin-bottom: 0px;
   position: relative;
+  .title-team {
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: center;
+    color: #14d9c5;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  .content-team {
+    justify-content: center;
+    text-align: center;
+    line-height: 1.5;
+    margin: 15px;
+    margin-bottom: 30px;
+    @include content();
+  }
+  .decoration-box {
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+    background-color: #ffffff;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    bottom: -15px;
+  }
 }
-.container h2 {
-  font-family: Rubik;
-  font-size: 24px;
-  font-weight: bold;
-  justify-content: center;
-  color: #14d9c5;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-}
-
-.container p {
-  justify-content: center;
-  text-align: center;
-  color: #54585a;
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  margin: 15px;
-  margin-bottom: 30px;
-}
-
-.decoration-box {
-  width: 30px;
-  height: 30px;
-  transform: rotate(45deg);
-  background-color: #ffffff;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  position: absolute;
-  bottom: -15px;
-}
-
-/* Fortalezas y debilidades */
-.title {
-  color: #099d8d;
-  font-family: "Rubic", sans-serif;
-  font-size: 22px;
-  margin-top: 10px;
-}
-
-.content {
-  color: #54585a;
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-}
+// fortalezas  y debilidades
 body {
   margin: 0;
 }
@@ -70,34 +59,33 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 20px;
-}
-
-h2.title {
-  color: #099d8d;
-  font-family: "Rubik", sans-serif;
-  font-size: 22px;
-}
-
-.features-strengths {
-  width: 100%;
-  text-align: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.features-weakness {
-  width: 100%;
-  text-align: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  &-features-container {
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  &-content {
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    @include content();
+  }
+  &-title {
+    color: #099d8d;
+    font-family: "Rubik", sans-serif;
+    font-size: 22px;
+    margin-top: 10px;
+    text-align: center;
+  }
 }
 
 @media all and (min-width: 768px) {
   .features {
     flex-direction: row;
   }
-  .features-strengths,
-  .features-weakness {
+  .features-container {
     width: 50%;
   }
 }
