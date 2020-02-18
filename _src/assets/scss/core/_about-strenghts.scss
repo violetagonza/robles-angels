@@ -86,10 +86,27 @@ body {
     flex-direction: row;
     &-container {
       width: 50%;
+      margin-right: 45px;
+      margin-left: 45px;
     }
   }
   .team {
     margin-left: 45px;
     margin-right: 45px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .features {
+    flex-direction: row;
+    &-container {
+      width: 50%;
+      margin-right: 138px;
+      margin-left: 138px;
+    }
+  }
+  .team {
+    margin-left: 300px;
+    margin-right: 300px;
   }
 }
