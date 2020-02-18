@@ -15,36 +15,34 @@
   margin-right: 15px;
   margin-bottom: 0px;
   position: relative;
-}
-.container h2 {
-  font-family: Rubik;
-  font-size: 24px;
-  font-weight: bold;
-  justify-content: center;
-  color: #14d9c5;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-}
-
-.container p {
-  justify-content: center;
-  text-align: center;
-  line-height: 1.5;
-  margin: 15px;
-  margin-bottom: 30px;
-  @include content();
-}
-
-.decoration-box {
-  width: 30px;
-  height: 30px;
-  transform: rotate(45deg);
-  background-color: #ffffff;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  position: absolute;
-  bottom: -15px;
+  .title-team {
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: center;
+    color: #14d9c5;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  .content-team {
+    justify-content: center;
+    text-align: center;
+    line-height: 1.5;
+    margin: 15px;
+    margin-bottom: 30px;
+    @include content();
+  }
+  .decoration-box {
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+    background-color: #ffffff;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    bottom: -15px;
+  }
 }
 
 /* Fortalezas y debilidades */
@@ -72,19 +70,18 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 20px;
+  .features-content {
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 }
 
 h2.title {
   color: #099d8d;
   font-family: "Rubik", sans-serif;
   font-size: 22px;
-}
-
-.features-content {
-  width: 100%;
-  text-align: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 
 @media all and (min-width: 768px) {
