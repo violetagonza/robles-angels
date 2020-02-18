@@ -79,3 +79,43 @@
     padding: 8px;
   }
 }
+
+@media (min-width: 768px) {
+
+  .header {
+      display: flex;
+      flex-direction: row;
+      background-color: #099d8d;
+      width: 100%;
+      height: 60px;
+      justify-content: space-between;
+
+    &-base {
+      justify-content: flex-start;
+      background-color: transparent;
+      padding: 15px 45px;
+      
+    }
+  }
+  
+  .main-bar {
+    justify-content: space-between;
+    height: 60px;
+    background-color: #099d8d;
+    padding: 0 36px 0;
+
+    a {
+      padding: 9px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .header-base {
+      padding: 15px 138px;
+    }
+  
+  .main-bar {
+    padding: 0 129px 0;
+  }
+}
