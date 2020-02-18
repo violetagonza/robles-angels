@@ -6,7 +6,7 @@
   color: #54585a;
 }
 
-.container {
+.team {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,7 +15,7 @@
   margin-right: 15px;
   margin-bottom: 0px;
   position: relative;
-  .title-team {
+  &-title {
     font-family: Rubik;
     font-size: 24px;
     font-weight: bold;
@@ -24,7 +24,7 @@
     margin-bottom: 15px;
     text-transform: uppercase;
   }
-  .content-team {
+  &-content {
     justify-content: center;
     text-align: center;
     line-height: 1.5;
@@ -84,8 +84,12 @@ body {
 @media all and (min-width: 768px) {
   .features {
     flex-direction: row;
+    &-container {
+      width: 50%;
+    }
   }
-  .features-container {
-    width: 50%;
+  .team {
+    margin-left: 45px;
+    margin-right: 45px;
   }
 }
