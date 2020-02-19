@@ -1,3 +1,13 @@
+.hero__image-contact {
+  height: 412px;
+  background: url(../images/hero-contact.jpg) 50% center no-repeat;
+  background-size: cover;
+  width: 100%;
+
+  @media all and (min-width: 1200px) {
+    height: 550px;
+  }
+}
 form {
   .team {
     &-title {
