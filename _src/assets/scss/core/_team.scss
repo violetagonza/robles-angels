@@ -75,6 +75,13 @@ body {
 
 .fa-linkedin-in {
   color: $light-green;
+<<<<<<< HEAD
+=======
+}
+
+.fa-linkedin-in-odd {
+  color: $light-green;
+>>>>>>> master
 }
 
 /* PUNTO TRAS LINKEDIN */
@@ -87,8 +94,23 @@ body {
   color: black;
 }
 
+.fa-linkedin-in-odd:after {
+  content: "\002E";
+  position: relative;
+  top: -4px;
+  left: 12px;
+  color: black;
+}
+
 .fa-github-alt {
   color: $light-green;
+<<<<<<< HEAD
+=======
+}
+
+.fa-github-alt-odd {
+  color: $light-green;
+>>>>>>> master
 }
 
 /* PUNTO TRAS GITHUB */
@@ -98,6 +120,14 @@ body {
   position: relative;
   top: -4px;
   left: 8px;
+  color: black;
+}
+
+.fa-github-alt-odd:after {
+  content: "\002E";
+  position: relative;
+  top: -4px;
+  left: 12px;
   color: black;
 }
 
