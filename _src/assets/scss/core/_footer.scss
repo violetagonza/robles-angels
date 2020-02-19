@@ -35,6 +35,10 @@
     flex-wrap: wrap;
     align-items: flex-start;
     padding-left: 138px;
+
+    .adalab-logo {
+      margin-top: -66px;
+    }
   }
   .copyright {
     width: 50%;
@@ -46,9 +50,5 @@
     line-height: 30px;
     text-align: right;
     margin: 0;
-  }
-
-  .adalab-logo {
-    margin-top: -66px;
   }
 }
