@@ -45,6 +45,12 @@
   }
 }
 // fortalezas  y debilidades
+
+@mixin padding-mobile() {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 body {
   margin: 0;
 }
@@ -62,8 +68,7 @@ body {
   &-features-container {
     width: 100%;
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    @include padding-mobile();
   }
   &-content {
     width: 100%;
@@ -86,10 +91,27 @@ body {
     flex-direction: row;
     &-container {
       width: 50%;
+      margin-right: 45px;
+      margin-left: 45px;
     }
   }
   .team {
     margin-left: 45px;
     margin-right: 45px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .features {
+    flex-direction: row;
+    &-container {
+      width: 50%;
+      margin-right: 138px;
+      margin-left: 138px;
+    }
+  }
+  .team {
+    margin-left: 300px;
+    margin-right: 300px;
   }
 }
