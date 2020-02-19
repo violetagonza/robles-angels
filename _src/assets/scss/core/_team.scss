@@ -16,7 +16,7 @@
   font-size: 24px;
   font-weight: 500;
   line-height: 1.88;
-  color: #099d8d;
+  color: $dark-green;
   margin: 0 auto;
   text-align: center;
   text-transform: uppercase;
@@ -34,7 +34,7 @@
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #54585a;
+  color: $paragraph-grey;
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
@@ -46,7 +46,7 @@
 .photobox {
   width: 180px;
   height: 180px;
-  border: solid #b8b8b9 5px;
+  border: solid $background-grey 5px;
   border-radius: 4px;
   box-sizing: content-box;
   margin: 10px;
@@ -60,7 +60,7 @@ body {
 /* ESTILOS ICONOS */
 
 .fa-twitter {
-  color: #14d9c4;
+  color: $light-green;
 }
 
 /* PUNTO TRAS TWITTER */
@@ -74,7 +74,11 @@ body {
 }
 
 .fa-linkedin-in {
-  color: #14d9c4;
+  color: $light-green;
+}
+
+.fa-linkedin-in-odd {
+  color: $light-green;
 }
 
 /* PUNTO TRAS LINKEDIN */
@@ -87,8 +91,20 @@ body {
   color: black;
 }
 
+.fa-linkedin-in-odd:after {
+  content: "\002E";
+  position: relative;
+  top: -4px;
+  left: 12px;
+  color: black;
+}
+
 .fa-github-alt {
-  color: #14d9c4;
+  color: $light-green;
+}
+
+.fa-github-alt-odd {
+  color: $light-green;
 }
 
 /* PUNTO TRAS GITHUB */
@@ -101,8 +117,16 @@ body {
   color: black;
 }
 
+.fa-github-alt-odd:after {
+  content: "\002E";
+  position: relative;
+  top: -4px;
+  left: 12px;
+  color: black;
+}
+
 .fa-envelope {
-  color: #14d9c4;
+  color: $light-green;
 }
 
 .icons {
@@ -112,47 +136,6 @@ body {
   margin-top: 15px;
   display: flex;
   justify-content: space-between;
-}
-
-/* footer */
-.container-footer {
-  width: 100%;
-  border-top: solid 1px #f1f1f1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.copyright {
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  color: #b8b8b9;
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
-.links-footer {
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-  color: #54585a;
-  list-style: none;
-  text-align: center;
-  padding: 0px;
-  margin-bottom: 30px;
-  margin-top: 0px;
-  text-transform: uppercase;
-}
-
-.adalab-logo {
-  width: 115.9px;
-  height: 45px;
-  margin-bottom: 45px;
-}
-.links-footer a {
-  color: #54585a;
-}
-
-a {
-  text-decoration: none;
 }
 
 /* @media Tablet */
