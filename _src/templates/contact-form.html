@@ -40,36 +40,44 @@
           >
         </div>
         <div class="form-container">
-        <label for="Name">
-          Nombre completo <span>*</span>
-        </label>
+          <label for="Name"> Nombre completo <span>*</span> </label>
           <input id="Name" type="text" name="Name" placeholder="Nombre..." />
-        <div class="mail-tel">
-        <label id="email">
-          Email<span>*</span>
-        </label>
-          <input
-          id="email"
-            type="email"
-            name="email"
-            placeholder="nombre.apellidos@mail.com"
-          />
-        <label for="tel">
-          Teléfono
-        </label>
-          <input id="tel" type="number" name="Phone-number" placeholder="Ej:123456789" />
-      </div>
-        <label for="comments">
-          Mensaje<span>*</span>
-        </label>
-          <textarea id="comments" name="comments" placeholder="¿Qué necesitas?" rows="8" cols="80"></textarea>
-        <div class="button-box">
-          <input class="form-button" type="submit" name="Enviar" />
+          <div class="mail-tel">
+            <div class="mail">
+              <label id="email"> Email<span>*</span> </label>
+              <input
+                id="email"
+                type="email"
+                name="email"
+                placeholder="nombre.apellidos@mail.com"
+              />
+            </div>
+            <div class="telf">
+              <label for="tel">
+                Teléfono
+              </label>
+              <input
+                id="tel"
+                type="number"
+                name="Phone-number"
+                placeholder="Ej:123456789"
+              />
+            </div>
+          </div>
+
+          <label for="comments"> Mensaje<span>*</span> </label>
+          <textarea
+            id="comments"
+            name="comments"
+            placeholder="¿Qué necesitas?"
+            rows="8"
+            cols="80"
+          ></textarea>
+          <div class="button-box">
+            <input class="form-button" type="submit" name="Enviar" />
+          </div>
         </div>
       </form>
-    </div>
-
-    
     </main>
     <!-- Footer -->
     <partial src="_footer.html"></partial>
