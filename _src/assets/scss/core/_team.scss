@@ -16,7 +16,7 @@
   font-size: 24px;
   font-weight: 500;
   line-height: 1.88;
-  color: #099d8d;
+  color: $dark-green;
   margin: 0 auto;
   text-align: center;
   text-transform: uppercase;
@@ -34,7 +34,7 @@
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #54585a;
+  color: $paragraph-grey;
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
@@ -46,7 +46,7 @@
 .photobox {
   width: 180px;
   height: 180px;
-  border: solid #b8b8b9 5px;
+  border: solid $background-grey 5px;
   border-radius: 4px;
   box-sizing: content-box;
   margin: 10px;
@@ -60,7 +60,7 @@ body {
 /* ESTILOS ICONOS */
 
 .fa-twitter {
-  color: #14d9c4;
+  color: $light-green;
 }
 
 /* PUNTO TRAS TWITTER */
@@ -126,7 +126,7 @@ body {
 }
 
 .fa-envelope {
-  color: #14d9c4;
+  color: $light-green;
 }
 
 .icons {
