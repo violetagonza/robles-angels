@@ -26,7 +26,10 @@
     <partial src="./_header-contact-form.html" title="header-hero"></partial>
 
     <main>
-      <form action="GET">
+      <form
+        method="POST"
+        action="//formspree.io/violetagonzalezcalleja@gmail.com"
+      >
         <div class="team">
           <h2 class="team-title">Contacto</h2>
           <p class="team-content">
@@ -41,7 +44,13 @@
         </div>
         <div class="form-container">
           <label for="Name"> Nombre completo <span>*</span> </label>
-          <input id="Name" type="text" name="Name" placeholder="Nombre..." />
+          <input
+            id="Name"
+            type="text"
+            name="Name"
+            placeholder="Nombre..."
+            required
+          />
           <div class="mail-tel">
             <div class="mail">
               <label id="email"> Email<span>*</span> </label>
@@ -50,6 +59,7 @@
                 type="email"
                 name="email"
                 placeholder="nombre.apellidos@mail.com"
+                required
               />
             </div>
             <div class="telf">
@@ -72,6 +82,7 @@
             placeholder="¿Qué necesitas?"
             rows="8"
             cols="80"
+            required
           ></textarea>
           <div class="button-box">
             <input class="form-button" type="submit" name="Enviar" />
