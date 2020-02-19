@@ -20,6 +20,9 @@
   top: 90%;
   background-color: white;
   font-family: $content-font, sans-serif;
+  h2 {
+    font-weight: normal;
+  }
 
   @media all and (min-width: 768px) {
     opacity: 80%;
