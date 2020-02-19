@@ -1,0 +1,9 @@
+.nombre-del-grupo:hover {
+  font-size: 20px;
+  text-shadow: 2px 2px $paragraph-grey;
+}
+
+:hover.main-bar li {
+  font-size: 18px;
+  text-shadow: 2px 2px $paragraph-grey;
+}
