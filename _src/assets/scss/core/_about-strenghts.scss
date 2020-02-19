@@ -45,6 +45,12 @@
   }
 }
 // fortalezas  y debilidades
+
+@mixin padding-mobile() {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 body {
   margin: 0;
 }
@@ -62,8 +68,7 @@ body {
   &-features-container {
     width: 100%;
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    @include padding-mobile();
   }
   &-content {
     width: 100%;
