@@ -1,0 +1,21 @@
+body {
+  margin-top: 105px;
+}
+
+.padding-link {
+  padding-top: 105px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@import "./core/variables";
+@import "./core/hero-header";
+@import "./core/team";
+@import "./core/strenghts";
+@import "./core/adalabers";
+@import "./core/contact-form";
+@import "./core/footer";
